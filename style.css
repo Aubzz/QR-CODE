@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: white;
+  width: 22%;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 25px;
+  letter-spacing: 2px;
+  color: hsl(218, 44%, 22%);
+}
+
+.components-center {
+  border-radius: 10px;
+}
+
+.second-heading {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 15px 30px;
+}
